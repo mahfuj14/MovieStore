@@ -1,6 +1,6 @@
 In this app, I implemented a registration screen, home screen for movie, search on the basis of title, cast, category of movie. User details, favourite movie list and adding and deleting from movie list is also implemented.
 #Register Screen</br>
-<img src ="https://github.com/mahfuj14/MovieStore/assets/67245838/4cbae16c-a48a-4327-a76f-211b3180c867" width="250" height = "320"> </br>
+<img src ="https://github.com/mahfuj14/MovieStore/assets/67245838/4cbae16c-a48a-4327-a76f-211b3180c867" width="220" height = "320"> </br>
 #Homescreen for movie implemented in recyclerview </br>
 ![Home_Screen](https://github.com/mahfuj14/MovieStore/assets/67245838/147099b1-3d2f-4d4b-ac39-5d65baf14c52) </br>
 #searching by movie title and movie category </br>
