@@ -1,4 +1,5 @@
-In this app, I implemented a registration screen, home screen for movie, search on the basis of title, cast, category of movie. User details, favourite movie list and adding and deleting from movie list is also implemented.
+In this app, I implemented a registration screen, home screen for movie, search on the basis of title, cast, category of movie. User details, favourite movie list and adding and deleting from movie list is also implemented.</br>
+
 #youtube video link:</br>
 <iframe src="https://www.youtube.com/embed/a0Vjh1ELX3g?si=Rw-YsORdzx53rmfP"></br>
 #Register Screen</br>
