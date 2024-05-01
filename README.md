@@ -1,0 +1,1 @@
+In this app, I implemented a registration screen, home screen for movie, search on the basis of title, cast, category of movie. User details, favourite movie list and adding and deleting from movie list is also implemented.
