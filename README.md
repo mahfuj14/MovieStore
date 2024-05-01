@@ -1,6 +1,6 @@
 In this app, I implemented a registration screen, home screen for movie, search on the basis of title, cast, category of movie. User details, favourite movie list and adding and deleting from movie list is also implemented.
 #youtube video link:</br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a0Vjh1ELX3g?si=Rw-YsORdzx53rmfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></br>
+<iframe src="https://www.youtube.com/embed/a0Vjh1ELX3g?si=Rw-YsORdzx53rmfP"></br>
 #Register Screen</br>
 <img src ="https://github.com/mahfuj14/MovieStore/assets/67245838/4cbae16c-a48a-4327-a76f-211b3180c867" width="200" height = "320"> </br>
 #Homescreen for movie implemented in recyclerview </br>
