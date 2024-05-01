@@ -18,6 +18,7 @@ In this app, I implemented a registration screen, home screen for movie, search 
 ![Favourite_movie_list](https://github.com/mahfuj14/MovieStore/assets/67245838/a1d01acc-4ed1-4775-b015-31d83abca5b7)
 #Movie details page
 ![Movie_details_page](https://github.com/mahfuj14/MovieStore/assets/67245838/f7159eeb-660c-4fc8-834a-e51c51c94c2f)
+
 That's all
 
 
