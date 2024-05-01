@@ -9,15 +9,17 @@ public class MovieModel implements Serializable {
     private  String category;
     private  String releaseDate;
     private  String budget;
-    private String imageUrl;
+    private int imageUrl;
+    private boolean toogle;
 
-    public MovieModel(String title, String cast, String category, String releaseDate, String budget, String imageUrl) {
+    public MovieModel(String title, String cast, String category, String releaseDate, String budget, int imageUrl, boolean toogle) {
         this.title = title;
         this.cast = cast;
         this.category = category;
         this.releaseDate = releaseDate;
         this.budget = budget;
         this.imageUrl = imageUrl;
+        this.toogle = toogle;
     }
 
     public String getTitle() {
@@ -60,11 +62,19 @@ public class MovieModel implements Serializable {
         this.budget = budget;
     }
 
-    public String getImageUrl() {
+    public int getImageUrl() {
         return imageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
+    public void setImageUrl(int imageUrl) {
         this.imageUrl = imageUrl;
+    }
+
+    public boolean isToogle() {
+        return toogle;
+    }
+
+    public void setToogle(boolean toogle) {
+        this.toogle = toogle;
     }
 }

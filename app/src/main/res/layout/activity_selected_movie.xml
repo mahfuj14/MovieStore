@@ -3,32 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/ash"
     tools:context=".Selected_movie">
 
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:id="@+id/profileImg"
-        android:layout_marginTop="130dp"
-        android:layout_height="405dp">
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
         <LinearLayout
             android:background="@color/cardview_light_background"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@color/ash"
             android:orientation="vertical">
             <ImageView
+                android:id="@+id/selectedImageView"
                 android:layout_marginTop="45dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_width="250dp"
-                android:layout_height="250dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:src="@drawable/profle_top_img"/>
             <TextView
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wiliam Snoe"
+                android:text="Movie Details"
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="21sp"/>
@@ -41,7 +47,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:layout_marginTop="535dp">
+        android:layout_marginTop="300dp">
         <LinearLayout
             android:layout_marginTop="25dp"
             android:orientation="horizontal"

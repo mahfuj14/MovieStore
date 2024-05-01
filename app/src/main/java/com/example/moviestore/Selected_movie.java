@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Selected_movie extends AppCompatActivity {
     TextView title, cast, category, releaseDate, budget;
+    ImageView selectedImageview;
     MovieModel movieModel;
     Intent intent;
 
@@ -21,6 +23,8 @@ public class Selected_movie extends AppCompatActivity {
         category=findViewById(R.id.category2Tv);
         releaseDate=findViewById(R.id.releaseDate2Tv);
         budget = findViewById(R.id.budget2Tv);
+        selectedImageview = findViewById(R.id.selectedImageView);
+
         intent = getIntent();
 
         if(intent!=null){
@@ -30,12 +34,13 @@ public class Selected_movie extends AppCompatActivity {
             String categoryS = movieModel.getCategory();
             String releaseDateS = movieModel.getReleaseDate();
             String budgetS = movieModel.getBudget();
-            String imageUrlS = movieModel.getImageUrl();
+            int imageUrlS = movieModel.getImageUrl();
             title.setText(titleS);
             cast.setText(castS);
             category.setText(categoryS);
             releaseDate.setText(releaseDateS);
             budget.setText(budgetS);
+            selectedImageview.setImageResource(movieModel.getImageUrl());
 
         }
     }
