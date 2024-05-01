@@ -6,7 +6,7 @@ In this app, I implemented a registration screen, home screen for movie, search 
 #searching by movie title and movie category </br>
 <img src="https://github.com/mahfuj14/MovieStore/assets/67245838/e4bbcfb5-df44-4d30-89b3-5e27f3e10391" width="200" height = "320"> </br>
 <img src="https://github.com/mahfuj14/MovieStore/assets/67245838/5e21121f-4457-472d-8d8c-7064cb0566fa" width="200" height = "320"> </br>
-#User Details Screen
+#User Details Screen</br>
 <img src="https://github.com/mahfuj14/MovieStore/assets/67245838/158b7aa5-0c83-43c0-bd5f-759735f9dd44" width="200" height = "320"> </br>
 #Adding to movie favourite list </br>
 <img src="https://github.com/mahfuj14/MovieStore/assets/67245838/bc174050-c392-43fc-b30e-580a7af0350e" width="200" height = "320"> </br>
